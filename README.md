@@ -22,7 +22,7 @@ This repository contains all the Javascript Assignments given in the course FS_J
 
 ### Soluton
 
-```
+```javascript
 document.querySelector(".side-bar>.crayons-card>.crayons-subtitle-2").innerHTML = "iNeuron";
 
 document.querySelector(".side-bar>.crayons-card>.color-base-70").innerHTML = "I Write Code";
@@ -42,7 +42,7 @@ document.querySelector(".side-bar>.crayons-card>.color-base-70").innerHTML = "I 
 
 ### Solution
 
-```
+```javascript
 let list = [];
 document.querySelectorAll(".as-imagegrid-item")
         .forEach((e) => list.push(e.innerText
@@ -69,7 +69,7 @@ document.querySelectorAll(".as-imagegrid-item")
 
 ### Solution
 
-```
+```javascript
 let parent = document.querySelector(".accordion-homepage");
 let newFaq = document.createElement("h3");
 newFaq.textContent = "Add My FAQ";
@@ -96,7 +96,7 @@ parent.appendChild(newFaq);
 
 ### Solution
 
-```
+```javascript
 document.querySelector(".one-tel-number").textContent = "+91 6366256689";
 ```
 
@@ -120,7 +120,7 @@ document.querySelector(".one-tel-number").textContent = "+91 6366256689";
 
 ### Solution
 
-```
+```javascript
 document.querySelectorAll(".diwali-deals-product-sale-btn")
                            .forEach((e) => e.innerText = "Check out");
 ```
@@ -145,7 +145,7 @@ document.querySelectorAll(".diwali-deals-product-sale-btn")
 
 ### Solution
 
-```
+```javascript
 let search = document.querySelector(".searchinput___19uW0");
 
 search.addEventListener('mouseenter', function enter(e){
@@ -178,7 +178,7 @@ e.target.style.backgroundColor = 'white';
 
 ### Solution
 
-```
+```javascript
 let input = document.querySelector(".search-input-field");
 input.value = "Css Selectors";
 let form = document.getElementById("top-nav-search-form");
@@ -208,7 +208,7 @@ submitForm();
 
 ### Solution
 
-```
+```javascript
 document.getElementById("SIvCob").innerText=" Google offered in:  dansk    বাংলা     मराठी     ગુજરાતી     മലയാളം";
 ```
 
@@ -232,7 +232,7 @@ document.getElementById("SIvCob").innerText=" Google offered in:  dansk    ব�
 
 ### Solution
 
-```
+```javascript
 let head = document.querySelector(".display-heading-1");
 head.style.fontFamily = "monospace";
 head.style.color = "#b1361e";
@@ -258,7 +258,7 @@ head.style.color = "#b1361e";
 
 ### Solution
 
-```
+```javascript
 let btn = document.querySelector(".login-btn-text");
 btn.addEventListener("mouseover", function hoverBg(e){
     e.target.style.backgroundColor = "red";
@@ -285,7 +285,7 @@ btn.addEventListener("mouseover", function hoverBg(e){
 
 ### Solution
 
-```
+```javascript
 const newLogo = document.createElement("img");
 newLogo.src = "https://ineuron.ai/images/ineuron-logo.png";
 newLogo.style.width = "150px";
