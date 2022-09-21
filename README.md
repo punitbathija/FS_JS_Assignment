@@ -1,5 +1,6 @@
 # FS_JS_Assignment
-This repository contains all the Javascript Assignments given in the course FS_JS by iNeuron
+This repository contains all the Javascript DOM Manipulatation Assignments given in the course FS_JS by iNeuron
+There are 20 questions in this assignment and I have completed 11 of them
 ## Dom Manipulation Assignment
 
 1. Webiste Name: [Dev To](https://dev.to/)
